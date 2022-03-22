@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#controls {
+    margin: 10px auto 0 auto;
+    width: 250px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 40px;
+    width: 230px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 16px;
+    transition: ease-in-out 0.2s;
+
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#spread {
+    margin-top: 5px;
+}
+
